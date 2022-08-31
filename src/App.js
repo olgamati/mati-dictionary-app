@@ -9,24 +9,26 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <small>
-          This project is coded by{" "}
-          <a
-            href="https://olga-plotnikova.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Olga Plotnikova
-          </a>{" "}
-          and is{" "}
-          <a
-            href="https://github.com/olgamati/mati-dictionary-app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            open-sourced on GitHub
-          </a>
-        </small>
+        <footer className="App-footer">
+          <small>
+            This project is coded by{" "}
+            <a
+              href="https://olga-plotnikova.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Olga Plotnikova
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/olgamati/mati-dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced on GitHub
+            </a>
+          </small>
+        </footer>
       </div>
     </div>
   );
