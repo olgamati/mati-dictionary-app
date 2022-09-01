@@ -1,9 +1,15 @@
 .Dictionary section {
-  background-color: #b3c2f8;
+  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+
   border-radius: 6px;
   box-shadow: 0 10px 10px rgb(0 0 0/13%);
   padding: 30px;
   margin: 20px 0;
+}
+.Dictionary .question {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 .Dictionary input {
   width: 100%;

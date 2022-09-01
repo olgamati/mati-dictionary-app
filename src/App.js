@@ -10,7 +10,7 @@ export default function App() {
           <h1>MATI DEFINITION DICTIONARY</h1>
           <p>
             Get clear definitions and audio pronunciations of words in British
-            and American English
+            and American English.
           </p>
         </header>
         <main>
