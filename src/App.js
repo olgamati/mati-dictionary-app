@@ -6,7 +6,13 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Definition dictionary</header>
+        <header className="App-header">
+          <h1>MATI DEFINITION DICTIONARY</h1>
+          <p>
+            Get clear definitions and audio pronunciations of words in British
+            and American English
+          </p>
+        </header>
         <main>
           <Dictionary />
         </main>
