@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results.js";
-import Photos from "./Photos";
+import Photos from "./Photos.js";
 import "./Dictionary.css";
 
 export default function Dictionary() {
-  let [keyword, setKeyword] = useState("friend");
+  let [keyword, setKeyword] = useState("wine");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
@@ -53,7 +53,7 @@ export default function Dictionary() {
             <input
               type="search"
               onChange={handleKeywordChange}
-              defaultValue="friend"
+              defaultValue="wine"
             />
           </form>
           <div className="hint">
