@@ -15,7 +15,6 @@ export default function Dictionary() {
   }
 
   function handlePexelsResponse(response) {
-    console.log(response.data.photos);
     setPhotos(response.data.photos);
   }
 
@@ -26,8 +25,8 @@ export default function Dictionary() {
     let pexelsApiKey =
       "563492ad6f9170000100000145e55112f63640f5a04322b32ae8e324";
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
-    let headers = { Authorization: `Bearer ${pexelsApiUrl}` };
-    axios.get(pexelsApiKey, { headers: headers }).then(handlePexelsResponse);
+    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+    axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
 
   function handleSubmit(event) {
